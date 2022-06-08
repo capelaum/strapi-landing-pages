@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_grid_images",
+  "info": {
+    "displayName": "grid_image",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

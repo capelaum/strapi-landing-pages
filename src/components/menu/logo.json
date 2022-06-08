@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_menu_logos",
+  "info": {
+    "displayName": "logo",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.logo"
+    },
+    "menu_links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link",
+      "required": true
+    }
+  }
+}

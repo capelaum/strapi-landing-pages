@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_section_grid_sections",
+  "info": {
+    "displayName": "section_grid",
+    "icon": "border-style",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "grid_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.grid-text",
+      "required": false
+    },
+    "grid_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.grid-image",
+      "required": false
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}

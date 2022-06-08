@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_menu_social_links",
+  "info": {
+    "displayName": "social_link",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "instagram",
+        "linkedin",
+        "youtube",
+        "facebook",
+        "website"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "text",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}

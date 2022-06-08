@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "tablet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": false
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.logo"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.social-link",
+      "required": true
+    }
+  }
+}
